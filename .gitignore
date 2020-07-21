@@ -1,0 +1,97 @@
+# Logs
+**/logs
+*.log
+
+# Data and Output
+**/data
+**/output
+
+# System Files
+## Windows
+Thumbs.db
+
+## Mac OS
+.DS_Store
+
+# VS Code
+*.code-workspace
+*.vscode
+
+# Hypothesis Files
+*.hypothesis
+
+# Python Cache
+__pycache__
+**/__pycache__
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Mypy
+.mypy_cache/
+
+# Test database
+# Need to ignore since it is re-created each time the tests are run
+test_data/db/test_skcomp.sqlite3
+test_data/db/*
+
+# Environment variables - important for API keys etc
+.env
+.env-files/
+.env*
+
+# Django stuff:
+staticfiles/
